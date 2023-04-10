@@ -1,5 +1,5 @@
 ---
-title: Library: DevSecOps
+title: DevSecOps Library
 subtitle: Here are some wonderful articles for you to read
 layout: page
 ---
