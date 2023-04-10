@@ -1,6 +1,6 @@
 ---
-title: DevSecOps Library
-subtitle: Here are some wonderful articles for you to read
+title: Library
+subtitle: DevSecOps
 layout: page
 ---
 ## 2023
