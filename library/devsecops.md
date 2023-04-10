@@ -1,9 +1,8 @@
 ---
+title: Library: DevSecOps
+subtitle: Here are some wonderful articles for you to read
 layout: page
 ---
-
-Here are some wonderful articles for you to read
-
 ## 2023
 - sfsdf
 - sdfasd
