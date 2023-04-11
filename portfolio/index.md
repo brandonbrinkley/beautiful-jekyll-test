@@ -15,13 +15,13 @@ layout: page
     <div class="col-sm-4">
         <a href="http://www.ubh.com">
           <h3 class="title">Purple Tile</h3>
-          <p>Short, sweet data point goes here.</p>
+          <p><img src="/assets/img/dv1.jfif"></p>
         </a>
     </div>
     <div class="col-sm-4">
         <a href="http://www.ubh.com">
           <h3 class="title">Orange Tile</h3>
-          <p>Short, sweet data point goes here.</p>
+          <p><img src="/assets/img/dv2.jfif"></p>
         </a>
     </div>
   </div>
@@ -29,13 +29,13 @@ layout: page
     <div class="col-sm-4">
         <a href="http://www.ubh.com">
           <h3 class="title">Green Tile</h3>
-          <p>Short, sweet data point goes here.</p>
+          <p><img src="/assets/img/dv3.jfif"></p>
         </a>
     </div>
     <div class="col-sm-4">
         <a href="http://www.ubh.com">
           <h3 class="title">Blue Tile</h3>
-          <p>Short, sweet data point goes here.</p>
+          <p><img src="/assets/img/dv4.jfif"></p>
         </a>
     </div>
   </div>
