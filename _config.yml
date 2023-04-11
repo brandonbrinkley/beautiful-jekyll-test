@@ -20,8 +20,9 @@ author: Brandon Brinkley
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Portfolio: "portfolio"
   Library: "library"
+  About Me: "aboutme"
 
 ################
 # --- Logo --- #
