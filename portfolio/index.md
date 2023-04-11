@@ -16,15 +16,36 @@ This is a test.
   {% endfor %}
   -->
     <div class="item">
-    <a class="item-inner" href="_posts/2020-02-26-flake-it-till-you-make-it.html">
+    <a class="item-inner" href="posts/2020-02-26-flake-it-till-you-make-it.html">
       <!--div class="item-image"><img src="/thumbnails/{{ post.thumbnail }}"></div-->
       <div class="item-name">Flake It Till You Make It</div>
     </a>
   </div>
     <div class="item">
+    <a class="item-inner" href="posts/2020-02-28-test-markdown">
+      <!--div class="item-image"><img src="/thumbnails/{{ post.thumbnail }}"></div-->
+      <div class="item-name">Test Markdown (posts/x.html)</div>
+    </a>
+  </div>
+  </div>
+    <div class="item">
+    <a class="item-inner" href="posts/2020-02-28-test-markdown.html">
+      <!--div class="item-image"><img src="/thumbnails/{{ post.thumbnail }}"></div-->
+      <div class="item-name">Test Markdown (posts/x)</div>
+    </a>
+  </div>
+  </div>
+    <div class="item">
     <a class="item-inner" href="2020-02-28-test-markdown.html">
       <!--div class="item-image"><img src="/thumbnails/{{ post.thumbnail }}"></div-->
-      <div class="item-name">Test Markdown</div>
+      <div class="item-name">Test Markdown (posts/x.html)</div>
+    </a>
+  </div>
+  </div>
+    <div class="item">
+    <a class="item-inner" href="2020-02-28-test-markdown">
+      <!--div class="item-image"><img src="/thumbnails/{{ post.thumbnail }}"></div-->
+      <div class="item-name">Test Markdown (posts/x)</div>
     </a>
   </div>
 </div>
