@@ -1,3 +1,5 @@
+[_Back to Library_](index)
+
 ## Official Microsoft Documentation
 - [YAML Schema Reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema)
 - [Template Types & Usage](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/templates?view=azure-devops)
