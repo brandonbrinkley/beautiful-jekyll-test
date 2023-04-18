@@ -1,3 +1,8 @@
+---
+title: Library
+subtitle: Azure DevOps
+layout: page
+---
 [_Back to Library_](index)
 
 ## Official Microsoft Documentation
