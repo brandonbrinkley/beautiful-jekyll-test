@@ -3,7 +3,7 @@ title: Library
 subtitle: Azure DevOps
 layout: page
 ---
-[_Back to Library_](index)
+[_Back to Library main page_](..)
 
 ## Official Microsoft Documentation
 - [YAML Schema Reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema)
