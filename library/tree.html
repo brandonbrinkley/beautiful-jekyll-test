@@ -129,7 +129,7 @@ chart = {
 }
 diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x)
 tree = d3.tree().nodeSize([dx, dy])
-data = FileAttachment("flare-2.json").json()
+data = FileAttachment("library.json").json()
 dx = 10
 dy = width / 6
 margin = ({top: 10, right: 120, bottom: 10, left: 40})
