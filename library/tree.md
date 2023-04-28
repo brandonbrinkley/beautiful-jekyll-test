@@ -1,9 +1,10 @@
-<html>
-  <head>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-  </head>
-  <body>
+---
+title: Library
+subtitle: Links to the good stuff.
+layout: page
+---
 
+<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 chart = {
   const root = d3.hierarchy(data);
@@ -136,6 +137,3 @@ margin = ({top: 10, right: 120, bottom: 10, left: 40})
 d3 = require("d3@6")
 </script>
 
-    
-  </body>
-</html>
