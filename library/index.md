@@ -44,8 +44,6 @@ layout: page
 }
 </style>
 </head>
-  
-  
 <body>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
@@ -203,12 +201,13 @@ function click(d) {
 }
 
 </script>
-
+<!--
 ### [DevSecOps](devsecops)
 ### [Azure DevOps](azdo)
 ### [Audit](audit)
 ### [Productivity](productivity)
 
 | A | B | C |
+-->
 </body>
 </html>
