@@ -42,7 +42,11 @@ layout: page
 .en-markup-crop-options div div:first-of-type {
     margin-left: 0px !important;
 }
-</style></head><body>
+</style>
+</head>
+  
+  
+<body>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -200,7 +204,6 @@ function click(d) {
 
 </script>
 
-<body>
 ### [DevSecOps](devsecops)
 ### [Azure DevOps](azdo)
 ### [Audit](audit)
@@ -208,4 +211,4 @@ function click(d) {
 
 | A | B | C |
 </body>
-
+</html>
