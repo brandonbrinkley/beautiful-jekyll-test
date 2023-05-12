@@ -199,7 +199,7 @@ function click(d) {
 }
 
 </script>
-</head>
+
 <body>
 ### [DevSecOps](devsecops)
 ### [Azure DevOps](azdo)
@@ -208,4 +208,4 @@ function click(d) {
 
 | A | B | C |
 </body>
-</html>
+
