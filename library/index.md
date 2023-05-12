@@ -86,7 +86,7 @@ d3.json("/beautiful-jekyll-test/library/library.json", function(error, turbo) {
   update(root);
 });
 
-d3.select(self.frameElement).style("height", "800px");
+d3.select(self.frameElement).style("height", "400px");
 
 function update(source) {
 
