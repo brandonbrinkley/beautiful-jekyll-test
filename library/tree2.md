@@ -65,7 +65,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("/d3test2/mydata.json", function(error, turbo) {
+d3.json("/beautiful-jekyll-test/library/mydata.json", function(error, turbo) {
   root = turbo;
   root.x0 = height / 2;
   root.y0 = 0;
