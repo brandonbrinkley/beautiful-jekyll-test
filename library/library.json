@@ -1,32 +1,28 @@
-{
-  "name": "Main Menu",
+{ "name": "Main Menu",
   "children": [
-    {
-      "name": "A",
+    { "name": "Accounting & Audit",
       "children": [
-        {
-          "name": "A1"
+        { "name": "Accounting",
+         "children": [
+           { "name": "FASB" },
+           { "name": "AICPA" },
+           { "name": "EIEIO" }
+         ]
         },
-        {
-          "name": "A2"
-        },
-        {
-          "name": "A3"
+        { "name": "Audit",
+         "children": [
+           { "name": "Standards" },
+           { "name": "Opinion library" },
+           { "name": "Tick mark supply store" }
+         ]
         }
       ]
     },
-    {
-      "name": "B",
+    { "name": "DevOps / DevSecOps",
       "children": [
-        {
-          "name": "B1"
-        },
-        {
-          "name": "B2"
-        },
-        {
-          "name": "B3"
-        }
+        { "name": "B1" },
+        { "name": "B2" },
+        { "name": "B3" }
       ]
     },
     { "name": "C" },
