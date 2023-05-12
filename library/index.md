@@ -48,7 +48,7 @@ layout: page
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 
-var margin = {top: 20, right: 120, bottom: 20, left: 120},
+var margin = {top: 20, right: 320, bottom: 20, left: 320},
     width = 960 - margin.right - margin.left,
     height = 400 - margin.top - margin.bottom;
 
