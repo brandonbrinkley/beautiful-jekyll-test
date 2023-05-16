@@ -1,0 +1,46 @@
+{ "name": "Main Menu",
+  "children": [
+    { "name": "Accounting & Audit",
+      "children": [
+        { "name": "Accounting",
+         "children": [
+           { "name": "FASB" },
+           { "name": "AICPA" },
+           { "name": "EIEIO" }
+         ]
+        },
+        { "name": "Audit",
+         "children": [
+           { "name": "Standards" },
+           { "name": "Opinion library" },
+           { "name": "Tick mark supply store" }
+         ]
+        }
+      ]
+    },
+    { "name": "DevOps / DevSecOps",
+      "children": [
+        { "name": "B1" },
+        { "name": "B2" },
+        { "name": "B3" }
+      ]
+    },
+    { "name": "C" },
+    { "name": "D" },
+    { "name": "E" },
+    { "name": "F" },
+    { "name": "G" },
+    { "name": "H" },
+    { "name": "I" },
+    { "name": "J" },
+    { "name": "K" },
+    { "name": "L" },
+    { "name": "M" },
+    { "name": "N" },
+    { "name": "O" },
+    { "name": "P" },
+    { "name": "Q" },
+    { "name": "R" }
+  ]
+}
+      
