@@ -5,7 +5,7 @@
   <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
   {% if forloop.last %}
   {% else %}
-   &#129066; 
+   <!--&#129066;-->&rarr; 
   {% endif %}
 {% endfor %}
 </div>
