@@ -5,4 +5,4 @@ layout: page
 ---
 {% include breadcrumbs.html %}
 
-[Linux](linux)
+[Linux](./linux)
