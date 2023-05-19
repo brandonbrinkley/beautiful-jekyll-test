@@ -5,4 +5,5 @@ layout: page
 ---
 {% include breadcrumbs.html %}
 
-[Linux](./linux)
+<a href="linux">Linux</a>
+[[Also Linux]](linux)
