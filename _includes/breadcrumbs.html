@@ -2,7 +2,7 @@
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 <!-- a href="/">Home</a -->
 {% for crumb in crumbs offset: 1 %}
-  <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+  <a href="htmlautiful-jekyll0test/{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
   {% if forloop.last %}
   {% else %}
    <!--&#129066;-->&rarr; 
