@@ -1,6 +1,6 @@
 ---
 title: Library
-subtitle: DevSecOps
+subtitle: DevOps Articles
 layout: page
 ---
 ## 2023
