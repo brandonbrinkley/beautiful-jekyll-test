@@ -46,6 +46,12 @@ layout: page
 </head>
 <body>
 {% include breadcrumbs.html %}
+
+### [Agile & Scrum](agile-&-scrum)
+### [Configuration Management](configuration-management)
+### [DevOps / DevSecOps](devops)
+### [Math & Science](math-&-science)
+
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 
