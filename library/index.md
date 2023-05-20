@@ -4,7 +4,7 @@ subtitle: Links to the good stuff.
 layout: page
 ---
 
-{% include breadcrumbs.html %}
+Main Menu
 
 ### [Agile & Scrum](agile-&-scrum)
 ### [Configuration Management](configuration-management)
