@@ -1,10 +1,11 @@
 <ul>
   {% for item in include.collection %}
     {% if item.collection %}
-      <li>{{ item.title }}</li>
+      <li>{{ item.title }}
       {% include linkcollection.html collection=item.collection %}
     {% else %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li><a href="{{ item.url }}">{{ item.title }}</a>
     {% endif %}
+    </li>
   {% endfor %}
 </ul>
