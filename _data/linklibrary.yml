@@ -17,7 +17,7 @@ library:
                 url: https://dev.azure.com
               - title: Official Documentation
                 url: https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops
-              - title:  - YAML Reference
+              - title:  · YAML Reference
                 url: https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines
-              - title:  - Predefined Variables
+              - title:  · Predefined Variables
                 url: https://learn.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml
