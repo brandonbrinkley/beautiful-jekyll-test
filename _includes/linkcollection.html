@@ -1,15 +1,15 @@
-<ul>
+<ul id="myUL">
 {% for item in include.collection %}
   {% if item.library %}  
     {% include linkcollection.html collection=item.library %}
   {% elsif item.collection %}
-    <li><span class="caret">{{ item.title }}</span> (DEBUG: Collection)
+    <li><span class="caret">{{ item.title }}</span>
       <ul class="nested">
         {% include linkcollection.html collection=item.collection %}
       </ul>
     </li>
   {% else %}
-    <li><a href="{{ item.url }}">{{ item.title }}</a> (DEBUG: Link)</li>
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
