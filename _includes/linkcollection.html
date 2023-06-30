@@ -1,16 +1,15 @@
+<ul>
 {% for item in include.collection %}
-  {% if item.library %}
-    <ul class="nested">
+  {% if item.library %}  
     {% include linkcollection.html collection=item.library %}
   {% elsif item.collection %}
     <li><span class="caret">{{ item.title }}</span> (DEBUG: Collection)
-    {% include linkcollection.html collection=item.collection %}
-  {% else %}
-    <li><a href="{{ item.url }}">{{ item.title }}</a> (DEBUG: Link)
-  {% endif %}
-  {% unless item.library %}
+      <ul class="nested">
+        {% include linkcollection.html collection=item.collection %}
+      </ul>
     </li>
   {% else %}
-    </ul>
-  {% endunless %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a> (DEBUG: Link)</li>
+  {% endif %}
 {% endfor %}
+</ul>
