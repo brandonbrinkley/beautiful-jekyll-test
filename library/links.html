@@ -4,6 +4,7 @@ subtitle: Links to the good stuff.
 layout: page
 ---
 <html>
+  <!-- Most of code taken from https://www.w3schools.com/howto/howto_js_treeview.asp -->
 <head>
 <style>
 ul, #myUL {
@@ -47,4 +48,17 @@ ul, #myUL {
 </head>
 <html>
 {% include linkcollection.html collection=site.data.linklibrary %}
+
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
+  
 </html>
